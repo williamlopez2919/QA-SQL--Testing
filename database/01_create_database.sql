@@ -1,4 +1,4 @@
 -- Crear base de datos 
-CREATE DATABASE TiendaWilliam; 
+create database tiendawilliam; 
 -- Seleccionar la base de datos 
-USE TiendaWilliam;
+use tiendawilliam;
