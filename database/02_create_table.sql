@@ -4,7 +4,7 @@
 -- Descripción: Creación de tablas principales con reglas de integridad
 -- ============================================================
 
--- Eliminar tablas en orden inverso a las dependencias para evitar errores de Foreign Keys
+-- Eliminar tablas en orden inverso a las dependencias para evitar errores de Foreign Keys  
 DROP TABLE IF EXISTS detalles_pedidos;
 DROP TABLE IF EXISTS pedidos;
 DROP TABLE IF EXISTS productos;
