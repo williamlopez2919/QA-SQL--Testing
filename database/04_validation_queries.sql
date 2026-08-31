@@ -1,6 +1,7 @@
 -- --------------------------------------------------------------------------
--- 3. consultas y validaciones
+-- EJEMPLO DE CONSULTAS Y VALIDACIONES
 -- --------------------------------------------------------------------------
+
 SELECT nombre FROM usuarios;
 -- -----------------------------------
 SELECT nombre FROM usuarios WHERE usuario_id = 2;
