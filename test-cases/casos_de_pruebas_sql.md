@@ -15,7 +15,8 @@ Validar la estructura de la base de datos, la integridad de los datos, las regla
 
 ## Test Cases
 
-| Test Case ID | Test Case | Acceptance Criteria | Preconditions | Test Data | Steps | Expected Result | Actual Result | Status | |---|---|---|---|---|---|---|---|---|
+| Test Case ID | Test Case | Acceptance Criteria | Preconditions | Test Data | Steps | Expected Result | Actual Result | Status |
+|---|---|---|---|---|---|---|---|---|
 
 | TC-001 | Consultar todos los usuarios registrados | El sistema debe permitir la consulta de todos los usuarios | La base de datos y la tabla 'USUARIOS' deben existir y contener datos | Tabla 'USUARIOS' con registros cargados | 1. Ejecutar 'SELECT * FROM usuarios;' 2. Revisar los registros devueltos | El sistema debe mostrar todos los usuarios almacenados sin errores | El sistema mostró correctamente 5 registros de usuario, sin errores | PASS |     
 
